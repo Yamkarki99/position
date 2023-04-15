@@ -1,0 +1,23 @@
+/*positions: static,initial,inherit,relative,absolute,fixed,sticky*/
+
+.parents {
+  background: grey;
+  min-height: 40vh;
+  padding: 1rem;
+}
+.parents > div {
+  min-height: 150px;
+  color: white;
+}
+.c1 {
+  background: red;
+}
+.c2 {
+  background: green;
+  position: relative;
+  left: 20px;
+  bottom: 20px;
+}
+.c3 {
+  background: blue;
+}
